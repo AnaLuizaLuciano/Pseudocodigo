@@ -1,0 +1,16 @@
+algoritmo "Tabuada"
+
+var i: inteiro
+    num: inteiro
+
+inicio
+
+  escreval("Digite um número")
+  leia(num)
+
+  escreval("Tabuada do ", num)
+  para i de 1 ate 10 faca
+    escreval(num," X " i," = ",num*i)
+  fimpara
+
+fimalgoritmo
