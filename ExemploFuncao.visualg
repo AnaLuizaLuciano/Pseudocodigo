@@ -1,0 +1,22 @@
+algoritmo "ExemploFuncao"
+
+var
+  resultado1: inteiro
+  resultado2: inteiro
+  resultado3: inteiro
+
+  funcao somar (Num1: inteiro, Num2: inteiro): inteiro
+    inicio
+      retorne Num1 + Num2
+  fimfuncao
+
+inicio
+
+  resultado1 <- somar(1,1)
+  escreval("O resultado da soma é ", resultado1)
+  resultado2 <- somar(100,1)
+  escreval("O resultado da soma é ", resultado2)
+  resultado3 <- somar(25,10)
+  escreval("O resultado da soma é ", resultado3)
+
+fimalgoritmo
