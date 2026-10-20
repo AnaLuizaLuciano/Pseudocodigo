@@ -1,0 +1,21 @@
+algoritmo "Primeiro Programa"
+
+var
+  raio: inteiro
+  perimetro: inteiro
+  area: real
+
+inicio
+
+  escreval("-- Calculadora de perímetro e área do círculo --")
+
+  escreval("Digite o valor do raio: ")
+  leia(raio)
+
+  perimetro <- (pi * quad(raio))
+  area <- (2 * pi * raio)
+
+  escreval("O perímetro de um círculo de raio ", raio, " é: ", perimetro)
+  escreval("A área de um circulo de raio ", raio, " é: ", area:0:2)
+
+fimalgoritmo
